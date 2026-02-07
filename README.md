@@ -12,9 +12,9 @@ This repository can help verify Alberta tax brackets without revealing the follo
 * business or employment expenses
 * support payments
 
-The circom file (alberta.circom) in this repository can be used to generate files such as those in the verification bundle folder. Such files could then be used to verify the Alberta tax bracket of a user without giving away additional information. Only the tax bracket of the user needs to be shown.
+The circom file (`alberta.circom`) in this repository can be used to generate files such as those in the verification bundle folder. Such files could then be used to verify the Alberta tax bracket of a user without giving away additional information. Only the tax bracket of the user needs to be shown.
 
-A more detailed description of the tax bracket calculation used here can be seen in the Python file (alberta.py). The files in the verification bundle folder are for demonstration purposes only. For instance, I only used one ceremony contributor to generate them.
+A more detailed description of the tax bracket calculation used here can be seen in the Python file (`alberta.py`). The files in the verification bundle folder are for demonstration purposes only. For instance, I only used one ceremony contributor to generate them.
 
 How to use files in the verification bundle folder:
 
