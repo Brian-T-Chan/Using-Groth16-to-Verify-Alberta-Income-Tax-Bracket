@@ -18,8 +18,8 @@ A more detailed description of the tax bracket calculation used here can be seen
 
 How to use files in the verification bundle folder:
 
-* Off-Chain Verification (App/Server): use proof.json and public.json with verification\_key.json
-* On-Chain Verification: use proof.json and public.json with verifier.sol
+* Off-Chain Verification (App/Server): use `proof.json` and `public.json` with `verification_key.json`
+* On-Chain Verification: use `proof.json` and `public.json` with `verifier.sol`
 
 `verifier.sol` and `verification\_key.json` only depend on the circom file, while `proof.json` and `public.json` also depend on the user.
 
